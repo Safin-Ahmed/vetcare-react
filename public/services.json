@@ -1,1 +1,42 @@
-"[{\"id\":1,\"name\":\"Behavior\",\"description\":\"We provide services on behaviour of your pet. Don't worry about your pet behaviour from now on. We will take your of your pet.\",\"title\":\"For your child whitest teeths\",\"img\":\"http://medicare.bold-themes.com/vet/wp-content/uploads/sites/5/2015/11/vet_00007-320x213.jpg\"},{\"id\":2,\"name\":\"Cardiology\",\"description\":\"No more worries about your pet's broken heart. we got your pet covered with our specialized pet cardiologist just to take care of your pet\",\"title\":\"Got a broken heart?\",\"img\":\"http://medicare.bold-themes.com/vet/wp-content/uploads/sites/5/2015/11/vet_00026-320x213.jpg\"},{\"id\":3,\"name\":\"VACCINATIONS\",\"description\":\"Is your pet suffering from any kind of pain or disease? Don't worry we have the most advanced vaccination technology to cure your pet instantly.\",\"title\":\"Neck or back pain?\",\"img\":\"http://medicare.bold-themes.com/vet/wp-content/uploads/sites/5/2015/11/vet_00012-320x213.jpg\"},{\"id\":4,\"name\":\"Surgeries\",\"description\":\"Did you pet recently faced an accident and got damaged? We will provide sugeries to make sure your pet recovers the unfortunate damage.\",\"title\":\"Accidents?\",\"img\":\"http://medicare.bold-themes.com/vet/wp-content/uploads/sites/5/2015/11/vet_00012-320x213.jpg\"},{\"id\":5,\"name\":\"Dentistry\",\"description\":\"We provide specialized dental services for your pet to make sure that they have healthy and white teeths.\",\"img\":\"http://medicare.bold-themes.com/vet/wp-content/uploads/sites/5/2015/11/vet_00008-320x212.jpg\"},{\"id\":6,\"name\":\"Heatworm Test\",\"description\":\"Do you think your dog has heatworm disease? We provide services to test your dog for heatworm disease and treat it very carefully to cure your dog.\",\"img\":\"http://medicare.bold-themes.com/vet/wp-content/uploads/sites/5/2015/11/vet_00017-320x213.jpg\"}]"
+[
+    {
+      "id": 1,
+      "name": "Behavior",
+      "description": "We provide services on behaviour of your pet. Don't worry about your pet behaviour from now on. We will take your of your pet.",
+      "title": "For your child whitest teeths",
+      "img": "http://medicare.bold-themes.com/vet/wp-content/uploads/sites/5/2015/11/vet_00007-320x213.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Cardiology",
+      "description": "No more worries about your pet's broken heart. we got your pet covered with our specialized pet cardiologist just to take care of your pet",
+      "title": "Got a broken heart?",
+      "img": "http://medicare.bold-themes.com/vet/wp-content/uploads/sites/5/2015/11/vet_00026-320x213.jpg"
+    },
+    {
+      "id": 3,
+      "name": "VACCINATIONS",
+      "description": "Is your pet suffering from any kind of pain or disease? Don't worry we have the most advanced vaccination technology to cure your pet instantly.",
+      "title": "Neck or back pain?",
+      "img": "http://medicare.bold-themes.com/vet/wp-content/uploads/sites/5/2015/11/vet_00012-320x213.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Surgeries",
+      "description": "Did you pet recently faced an accident and got damaged? We will provide sugeries to make sure your pet recovers the unfortunate damage.",
+      "title": "Accidents?",
+      "img": "http://medicare.bold-themes.com/vet/wp-content/uploads/sites/5/2015/11/vet_00012-320x213.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Dentistry",
+      "description": "We provide specialized dental services for your pet to make sure that they have healthy and white teeths.",
+      "img": "http://medicare.bold-themes.com/vet/wp-content/uploads/sites/5/2015/11/vet_00008-320x212.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Heatworm Test",
+      "description": "Do you think your dog has heatworm disease? We provide services to test your dog for heatworm disease and treat it very carefully and cure it",
+      "img": "http://medicare.bold-themes.com/vet/wp-content/uploads/sites/5/2015/11/vet_00017-320x213.jpg"
+    }
+  ]

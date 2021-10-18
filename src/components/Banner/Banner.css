@@ -1,0 +1,17 @@
+.banner-section {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../../images/banner.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner_title {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 900;
+    color: #fff;
+    font-size: 50px;
+}

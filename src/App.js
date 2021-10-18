@@ -1,16 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect } from 'react';
+import HomeNavbar from './components/Navbar/HomeNavbar';
+import Banner from './components/Banner/Banner';
+import OurTeam from './components/OurTeam/OurTeam';
+import Contact from './components/Contact/Contact';
+import Services from './components/Services/Services';
 
 function App() {
-  useEffect(() => {
-    fetch('services.json')
-    .then(response => response.json())
-    .then(data => console.log(data));
-  }, [])
+
   return (
-    <div className="App">
-      
+    <div>
+      <HomeNavbar></HomeNavbar>
+      <Banner></Banner>
+      <Services></Services>
+      <OurTeam></OurTeam>
+      <Contact></Contact>
     </div>
   );
 }
