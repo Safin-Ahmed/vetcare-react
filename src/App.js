@@ -1,5 +1,4 @@
 import './App.css';
-import { useEffect } from 'react';
 import HomeNavbar from './components/Navbar/HomeNavbar';
 import Footer from './components/Footer/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
