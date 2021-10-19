@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
 import { useEffect } from 'react';
 import HomeNavbar from './components/Navbar/HomeNavbar';
-import Banner from './components/Banner/Banner';
-import OurTeam from './components/OurTeam/OurTeam';
-import Contact from './components/Contact/Contact';
-import Services from './components/Services/Services';
 import Footer from './components/Footer/Footer';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './Pages/Home';
+import AboutUs from './Pages/AboutUs';
+import Contact from './Pages/Contact';
 
 function App() {
 
   return (
-    <div>
+    <Router>
       <HomeNavbar></HomeNavbar>
-      <Banner></Banner>
-      <Services></Services>
-      <OurTeam></OurTeam>
-      <Contact></Contact>
+      <Switch>
+        <Route exact path = "/"><Home></Home></Route>
+        <Route path = "/home"><Home></Home></Route>
+        <Route path = "/about"><AboutUs></AboutUs></Route>
+        <Route path = "/contact"><Contact></Contact></Route>
+      </Switch>
       <Footer></Footer>
-    </div>
+    </Router>
   );
 }
 
