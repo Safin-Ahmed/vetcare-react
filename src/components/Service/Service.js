@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useServices from '../../hooks/useServices';
 
 const Service = (props) => {
     const {name, description, img, id} = props.service;

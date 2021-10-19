@@ -1,16 +1,20 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import useServices from '../hooks/useServices';
 
 const ServiceDetail = () => {
-    const {id} = useParams();
+    const {serviceId} = useParams();
     const services = useServices();
-    console.log(services);
-    const serviceDetail = services.find(service => service.id === id);
-    console.log(serviceDetail);
+    const detailedService = services.find(service => service.id === parseInt(serviceId));
+    const {id, description, img, title, name} = detailedService;
     return (
         <div>
-            <h1>This is detailed Service - {id}</h1>
+            <Container>
+                <img src={img} alt="" />
+                <h5>{title}</h5>
+                <h1>{name}</h1>
+            </Container>
         </div>
     );
 };

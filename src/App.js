@@ -17,7 +17,7 @@ function App() {
         <Route path = "/home"><Home></Home></Route>
         <Route path = "/about"><AboutUs></AboutUs></Route>
         <Route path = "/contact"><Contact></Contact></Route>
-        <Route path = "/service/:id"><ServiceDetail></ServiceDetail></Route>
+        <Route path = "/service/:serviceId"><ServiceDetail></ServiceDetail></Route>
       </Switch>
       <Footer></Footer>
     </Router>
