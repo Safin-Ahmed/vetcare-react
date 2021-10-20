@@ -43,6 +43,7 @@ const Login = () => {
             updateProfile(auth.currentUser, {
                 displayName: userName
               })
+            history.push("/home");
             setIsLoading(false);
             console.log(result)
             

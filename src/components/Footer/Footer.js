@@ -1,5 +1,6 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Nav, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -9,39 +10,35 @@ const Footer = () => {
                 <Row>
                     <Col xs = {6} lg = {3}>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Appointment</a></li>
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#">Signup</a></li>
+                        <Nav.Link style = {{color : '#fff'}} as = {Link} to = "/home">Home</Nav.Link>
+                        <Nav.Link style = {{color : '#fff'}} as = {Link} to = "/about">About Us</Nav.Link>
+                        <Nav.Link style = {{color : '#fff'}} as = {Link} to = "/contact">Contact Us</Nav.Link>
+                        <Nav.Link style = {{color : '#fff'}} as = {Link} to = "/login">Login</Nav.Link>
                         </ul>
                     </Col>
                     
                     <Col xs = {6} lg = {3}>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Appointment</a></li>
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#">Signup</a></li>
+                        <Nav.Link style = {{color : '#fff'}} as = {Link} to = "/home">Home</Nav.Link>
+                        <Nav.Link style = {{color : '#fff'}} as = {Link} to = "/about">About Us</Nav.Link>
+                        <Nav.Link style = {{color : '#fff'}} as = {Link} to = "/contact">Contact Us</Nav.Link>
+                        <Nav.Link style = {{color : '#fff'}} as = {Link} to = "/login">Login</Nav.Link>
                         </ul>
                     </Col>
                     <Col xs = {6} lg = {3}>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Appointment</a></li>
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#">Signup</a></li>
+                        <Nav.Link style = {{color : '#fff'}} as = {Link} to = "/home">Home</Nav.Link>
+                        <Nav.Link style = {{color : '#fff'}} as = {Link} to = "/about">About Us</Nav.Link>
+                        <Nav.Link style = {{color : '#fff'}} as = {Link} to = "/contact">Contact Us</Nav.Link>
+                        <Nav.Link style = {{color : '#fff'}} as = {Link} to = "/login">Login</Nav.Link>
                         </ul>
                     </Col>
                     <Col xs = {6} lg = {3}>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Appointment</a></li>
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#">Signup</a></li>
+                        <Nav.Link style = {{color : '#fff'}} as = {Link} to = "/home">Home</Nav.Link>
+                        <Nav.Link style = {{color : '#fff'}} as = {Link} to = "/about">About Us</Nav.Link>
+                        <Nav.Link style = {{color : '#fff'}} as = {Link} to = "/contact">Contact Us</Nav.Link>
+                        <Nav.Link style = {{color : '#fff'}} as = {Link} to = "/login">Login</Nav.Link>
                         </ul>
                     </Col>
 

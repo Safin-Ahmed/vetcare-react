@@ -22,11 +22,11 @@ const HomeNavbar = () => {
     <Nav className = "align-items-center">
       
      
-      { user?.displayName && <Navbar.Text className = "text-center">Signed in as : {user.displayName}</Navbar.Text>}
+      { user?.displayName && <Navbar.Text className = "text-center me-2">Signed in as : {user.displayName}</Navbar.Text>}
       <div className = "user-info">
       {user?.photoURL && <img className = "ms-4 me-4" width = {50} height = "auto" style = {{borderRadius : "50%"}} src = {profileImage} alt = ""/>}
       { user?.email || user?.displayName ? 
-        <Button onClick = {logout} variant = "warning me-sm-4">Logout</Button>
+        <Button onClick = {logout} variant = "success me-sm-4">Logout</Button>
         :
         <Button as = {Link} to = "/login" variant = "success">Login</Button>
       }
