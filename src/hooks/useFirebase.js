@@ -55,7 +55,6 @@ const useFirebase = () => {
         logout,
         isLoading,
         setIsLoading,
-        auth,
         setEmail,
         setPassword,
         setUserName,

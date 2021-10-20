@@ -20,12 +20,12 @@ const HomeNavbar = () => {
     </Nav>
     <Nav>
       
-      { user?.email ? 
+      { user?.email || user?.displayName ? 
         <Button onClick = {logout} variant = "warning">Logout</Button>
         :
         <Button as = {Link} to = "/login" variant = "success">Login</Button>
       }
-      {isLoading?" " : user?.displayName && <Navbar.Text>Signed in as : {user.displayName}</Navbar.Text>}
+      { user?.displayName && <Navbar.Text>Signed in as : {user.displayName}</Navbar.Text>}
       
     </Nav>
   </Navbar.Collapse>

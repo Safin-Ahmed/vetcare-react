@@ -7,7 +7,7 @@ const Service = (props) => {
     const {name, description, img, id} = props.service;
     return (
         <Col>
-        <Card>
+        <Card className = "single-card">
           <Card.Img variant="top" src={img} />
           <Card.Body>
             <Card.Title>{name}</Card.Title>

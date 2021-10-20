@@ -8,14 +8,17 @@ import login from '../../images/user.jpg'
 const Login = () => {
     const {auth, signInWithGoogle, setEmail, setPassword, setUserName, userName, signUpWithForm, setIsLoading, updateProfile, signInwithForm} = useAuth();
     const location = useLocation();
-    const history= useHistory;
+    const history= useHistory();
     const redirectUrl = location.state?.from || '/home';
     const [isNew, setIsNew] = useState(false);
     const [error, setError] = useState('');
     const handleGoogleLogin = () => {
         signInWithGoogle()
         .then(result => {
+            console.log(result);
+            setIsLoading(false);
             history.push(redirectUrl);
+            
         })
     }
     const handleName = e => {

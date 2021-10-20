@@ -1,0 +1,16 @@
+.members-section {
+    padding: 80px 0;
+}
+.single-card {
+    transition: all 0.3s ease;
+}
+.single-card:hover {
+    transform: translateY(-12px)
+}
+@media screen and (max-width: 575px) {
+    .single-card{
+        margin: auto;
+        width: 90% !important;
+        
+    }
+}

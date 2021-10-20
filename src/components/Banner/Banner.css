@@ -15,3 +15,8 @@
     color: #fff;
     font-size: 50px;
 }
+@media screen and (max-width: 575px) {
+    .banner_title {
+        font-size: 22px !important;
+    }
+}

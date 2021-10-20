@@ -9,6 +9,7 @@ import ServiceDetail from './Pages/ServiceDetail/ServiceDetail';
 import AuthProvider from './Contexts/AuthProvider';
 import Login from './Pages/User/Login';
 import PrivateRoute from './Pages/User/PrivateRoute';
+import NotFound from './Pages/NotFound';
 
 function App() {
 
@@ -19,10 +20,11 @@ function App() {
       <Switch>
         <Route exact path = "/"><Home></Home></Route>
         <Route path = "/home"><Home></Home></Route>
-        <Route path = "/about"><AboutUs></AboutUs></Route>
+        <PrivateRoute path = "/about"><AboutUs></AboutUs></PrivateRoute>
         <Route path = "/contact"><Contact></Contact></Route>
         <PrivateRoute path = "/service/:serviceId"><ServiceDetail></ServiceDetail></PrivateRoute>
         <Route path = "/login"><Login></Login></Route>
+        <Route path = "*"><NotFound></NotFound></Route>
       </Switch>
       <Footer></Footer>
     </Router>
