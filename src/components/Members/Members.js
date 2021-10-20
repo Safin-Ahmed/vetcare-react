@@ -11,7 +11,7 @@ const Members = () => {
         <div className = "members-section">
             <Container>
                 <Row className = "gy-5">
-                    <Col xs = {6} lg = {3}>
+                    <Col xs = {12} lg = {3}>
                     <Card className = "shadow rounded single-card" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={member1} />
                         <Card.Body>
@@ -23,7 +23,7 @@ const Members = () => {
                         </Card>
                     </Col>
                     
-                    <Col xs = {6} lg = {3}>
+                    <Col xs = {12} lg = {3}>
                     <Card className = "shadow rounded single-card" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={member2} />
                         <Card.Body>
@@ -34,7 +34,7 @@ const Members = () => {
                         </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs = {6} lg = {3}>
+                    <Col xs = {12} lg = {3}>
                     <Card className = "shadow rounded single-card" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={member3} />
                         <Card.Body>
@@ -45,7 +45,7 @@ const Members = () => {
                         </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs = {6} lg = {3}>
+                    <Col xs = {12} lg = {3}>
                     <Card className = "shadow rounded single-card" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={member4} />
                         <Card.Body>

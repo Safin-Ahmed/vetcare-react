@@ -4,3 +4,15 @@
     background-size: cover;
     padding: 80px 0;
 }
+@media screen and (max-width: 575px) {
+    .team-section {
+        padding: 20px 0;
+    }
+    .team-section img {
+        margin-bottom: 0px;
+    }
+    .team-section .container {
+        text-align: center;
+    }
+    
+}

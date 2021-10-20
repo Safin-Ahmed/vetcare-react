@@ -8,7 +8,8 @@ const Contact = () => {
            <Container>
            <h6>Schedule Your Appoinment?</h6>
             <h1>OUR <span className = "text-success fw-bold">CONTACTS</span></h1>
-            <p>Contact us with your problem and desired appointment time<br/> we will reply you back as soon as possible with all the informations.</p>
+            <p className = "d-none d-lg-block">Contact us with your problem and desired appointment time<br/> we will reply you back as soon as possible with all the informations.</p>
+            <p className = "d-block d-sm-none">Contact us with your problem and desired appointment time we will reply you back as soon as possible with all the informations.</p>
           <Row className="social-icons">
               <Col lg = {12}>
                   <a href="#"><BsFacebook className = "me-3 text-success"/></a>

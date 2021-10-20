@@ -7,7 +7,7 @@ const Footer = () => {
         <footer>
             <Container>
                 <Row>
-                    <Col lg = {3}>
+                    <Col xs = {6} lg = {3}>
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
@@ -17,7 +17,7 @@ const Footer = () => {
                         </ul>
                     </Col>
                     
-                    <Col lg = {3}>
+                    <Col xs = {6} lg = {3}>
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
                             <li><a href="#">Signup</a></li>
                         </ul>
                     </Col>
-                    <Col lg = {3}>
+                    <Col xs = {6} lg = {3}>
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
@@ -35,7 +35,7 @@ const Footer = () => {
                             <li><a href="#">Signup</a></li>
                         </ul>
                     </Col>
-                    <Col lg = {3}>
+                    <Col xs = {6} lg = {3}>
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>

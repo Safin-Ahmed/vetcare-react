@@ -8,9 +8,12 @@
     transform: translateY(-12px)
 }
 @media screen and (max-width: 575px) {
+    .members-section {
+        padding: 40px 0;
+    }
     .single-card{
         margin: auto;
-        width: 90% !important;
-        
+        width: 100% !important;
+
     }
 }

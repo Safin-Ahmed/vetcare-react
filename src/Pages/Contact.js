@@ -4,7 +4,8 @@ import { Col, Form, Row, Button, Container } from 'react-bootstrap';
 const Contact = () => {
     return (
         <Container className = "p-5">
-            <h1 style = {{fontSize:"32px"}} className = "banner_title mb-5 text-dark text-center">Contact Us<br /><span className = "text-success">For Appoinment </span></h1>
+            <h1 style = {{fontSize:"32px"}} className = "d-none d-sm-block banner_title mb-5 text-dark text-center">Contact Us<br /><span className = "text-success">For Appoinment </span></h1>
+            <h1 style = {{fontSize:"32px"}} className = "d-block d-sm-none banner_title mb-5 text-dark text-center">Contact<span className = "text-success">Us</span></h1>
            <Form>
                 <Row className="mb-3">
                     <Form.Group as={Col} controlId="formGridEmail">

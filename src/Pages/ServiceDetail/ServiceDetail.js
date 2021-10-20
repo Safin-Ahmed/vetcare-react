@@ -13,7 +13,7 @@ const ServiceDetail = () => {
         return (
             <div className = "service-detail-section">
                 <Container className = "text-center">
-                    <img src={img} alt = "" />
+                    <img className = "mb-4" src={img} alt = "" />
                     <h2>{name}</h2>
                     <p>{description}</p>
                 </Container>

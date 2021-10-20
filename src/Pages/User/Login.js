@@ -93,10 +93,10 @@ const Login = () => {
                         </Form.Group>
                         <h6 className = "text-danger fw-400 mb-4">{error}</h6>
                         {
-                            isNew?<Button onClick = {handleRegistration} variant="primary" type="submit">
+                            isNew?<Button onClick = {handleRegistration} variant="success" type="submit">
                             Register</Button>
                             :
-                            <Button onClick = {handleLogin} variant="primary" type="submit">
+                            <Button onClick = {handleLogin} variant="success" type="submit">
                              Login
                             </Button>
                         }

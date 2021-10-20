@@ -17,6 +17,10 @@
 }
 @media screen and (max-width: 575px) {
     .banner_title {
-        font-size: 22px !important;
+        font-size: 25px !important;
+        text-align: center;
+    }
+    .banner-section {
+        background-position: center;
     }
 }
