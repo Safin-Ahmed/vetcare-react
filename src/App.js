@@ -6,21 +6,27 @@ import Home from './Pages/Home';
 import AboutUs from './Pages/AboutUs';
 import Contact from './Pages/Contact';
 import ServiceDetail from './Pages/ServiceDetail/ServiceDetail';
+import AuthProvider from './Contexts/AuthProvider';
+import Login from './Pages/User/Login';
+import PrivateRoute from './Pages/User/PrivateRoute';
 
 function App() {
 
   return (
-    <Router>
+   <AuthProvider>
+      <Router>
       <HomeNavbar></HomeNavbar>
       <Switch>
         <Route exact path = "/"><Home></Home></Route>
         <Route path = "/home"><Home></Home></Route>
         <Route path = "/about"><AboutUs></AboutUs></Route>
         <Route path = "/contact"><Contact></Contact></Route>
-        <Route path = "/service/:serviceId"><ServiceDetail></ServiceDetail></Route>
+        <PrivateRoute path = "/service/:serviceId"><ServiceDetail></ServiceDetail></PrivateRoute>
+        <Route path = "/login"><Login></Login></Route>
       </Switch>
       <Footer></Footer>
     </Router>
+   </AuthProvider>
   );
 }
 

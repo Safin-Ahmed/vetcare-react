@@ -1,9 +1,11 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import './HomeNavbar.css';
 import logo from '../../images/logo.png';
 import { Link } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 const HomeNavbar = () => {
+  const {user, logout, isLoading} = useAuth();
     return (
         <>
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
@@ -17,7 +19,14 @@ const HomeNavbar = () => {
       <Nav.Link as = {Link} to = "/contact">Contact Us</Nav.Link>
     </Nav>
     <Nav>
-      <Nav.Link href="#deets">User</Nav.Link>
+      
+      { user?.email ? 
+        <Button onClick = {logout} variant = "warning">Logout</Button>
+        :
+        <Button as = {Link} to = "/login" variant = "success">Login</Button>
+      }
+      {isLoading?" " : user?.displayName && <Navbar.Text>Signed in as : {user.displayName}</Navbar.Text>}
+      
     </Nav>
   </Navbar.Collapse>
   </Container>
