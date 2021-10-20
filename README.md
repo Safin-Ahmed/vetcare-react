@@ -2,7 +2,7 @@
 
 This project is all about Veterenary health care. It is developed by React and React Bootstrap with React router and much more.  
 
-## You can view the website [https://healthcare-website-9bd6f.web.app/] (https://healthcare-website-9bd6f.web.app/) with this link.
+## You can view the website [https://healthcare-website-9bd6f.web.app/] with this link.
 
 In the project directory, you can run:
 
